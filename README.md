@@ -13,4 +13,4 @@ Files:
 - `script.js` contains tab switching and BibTeX copy behavior.
 - `assets/figures/` contains PNG exports from the current manuscript figures.
 
-After public paper metadata is finalized, add the public paper link and update the BibTeX entry with the arXiv or venue metadata.
+The Paper button links to the arXiv page. Update the BibTeX entry if venue metadata changes.
