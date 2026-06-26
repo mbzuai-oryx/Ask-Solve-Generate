@@ -366,15 +366,11 @@ bash run_scripts/run_eval_vargpt_generation_our.sh
 If this codebase is useful for your research, please cite:
 
 ```bibtex
-@article{thawkar2026asksolvegenerateselfevolving,
-      title={Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards}, 
-      author={Ritesh Thawkar and Shravan Venkatraman and Omkar Thawakar and Abdelrahman Shaker and Fahad Khan and Hisham Cholakkal and Salman Khan and Rao Muhammad Anwer},
-      journal={arXiv preprint arXiv:2606.27376},
-      year={2026},
-      eprint={2606.27376},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.27376}, 
+@article{thawkar2026asksolvegenerate,
+  title={Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards},
+  author={Thawkar, Ritesh and Venkatraman, Shravan and Thawakar, Omkar and Shaker, Abdelrahman and Khan, Fahad and Cholakkal, Hisham and Khan, Salman and Anwer, Rao Muhammad},
+  journal={arXiv preprint arXiv:2606.27376},
+  year={2026}
 }
 ```
 
