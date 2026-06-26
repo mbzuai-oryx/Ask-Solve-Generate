@@ -3,7 +3,7 @@ Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generat
 </h1>
 
 <p align="center">
-  <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper_coming_soon-000000.svg?logo=arxiv&logoColor=B31B1B&labelColor=f5f5f5">
+  <a href="https://arxiv.org/abs/2606.27376"><img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-2606.27376-B31B1B.svg?logo=arxiv&logoColor=B31B1B&labelColor=f5f5f5"></a>
   <a href="https://mbzuai-oryx.github.io/Ask-Solve-Generate/"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-online-1f6feb.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWY2ZmViIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1LjMgMTUuMyAwIDAgMSAwIDIwIi8+PHBhdGggZD0iTTEyIDJhMTUuMyAxNS4zIDAgMCAwIDAgMjAiLz48L3N2Zz4="></a>
   <a href="https://huggingface.co/collections/Ritesh-hf/ask-solve-generate-paper-models"><img alt="Hugging Face Models" src="https://img.shields.io/badge/Models-HuggingFace-fcd734.svg?logo=huggingface&logoColor=FFD21E&labelColor=555555"></a>
   <a href="LICENSE"><img alt="Apache License" src="https://img.shields.io/badge/License-Apache--2.0-CA2133.svg?logo=apache&logoColor=CA2133&labelColor=555555"></a>
@@ -203,17 +203,11 @@ bash scripts/E1_main_joint.sh
 
 ---
 
-## 🤗 Model Zoo
+## Released Models
 
-Released checkpoints are available in the
+BLIP3o, BAGEL, and VARGPT-v1.1 checkpoints are available in the
 [Ask, Solve, Generate Hugging Face collection](https://huggingface.co/collections/Ritesh-hf/ask-solve-generate-paper-models).
-The training and evaluation scripts expect local checkpoint paths.
-
-| Backend | Checkpoint status | Notes |
-| --- | --- | --- |
-| BLIP3o | [Released](https://huggingface.co/collections/Ritesh-hf/ask-solve-generate-paper-models) | Main implementation for self-evolving unified training |
-| BAGEL | [Released](https://huggingface.co/collections/Ritesh-hf/ask-solve-generate-paper-models) | Baseline integration for the same training recipe |
-| VARGPT-v1.1 | [Released](https://huggingface.co/collections/Ritesh-hf/ask-solve-generate-paper-models) | 7B+2B baseline integration |
+The scripts expect local checkpoint paths.
 
 ---
 
